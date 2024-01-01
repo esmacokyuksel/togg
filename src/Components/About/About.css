@@ -1,0 +1,15 @@
+.row p {
+  font-size: 20px;
+  justify-content: center;
+  text-align: justify;
+}
+.row h3 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.row img {
+  margin-left: 200px;
+  border: 1px solid black;
+  width: 800px;
+}

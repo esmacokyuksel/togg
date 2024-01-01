@@ -1,0 +1,129 @@
+.products .product-item {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.products .product-item .product-image {
+  width: 100%;
+  height: 100%;
+}
+
+.products .product-item img {
+  width: 100%;
+  transition: 0.3s ease-in-out all;
+}
+
+.products .product-item .img1:hover {
+  visibility: hidden;
+  opacity: 0;
+}
+.button {
+  border: 1px solid rgb(148, 1, 1);
+  width: 150px;
+  height: 40px;
+}
+
+.products .product-item .product-title {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.products .product-item .product-star {
+  display: flex;
+  justify-content: center;
+  margin: 8px 2px;
+  color: #ebebeb;
+  column-gap: 2px;
+  margin-bottom: 20px;
+}
+
+.products .product-item .product-star i {
+  font-size: 15px;
+  color: gold;
+}
+
+.product-item .product-prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.product-item .product-prices strong {
+  color: #ff3c20;
+  font-weight: 700;
+}
+
+.product-item .product-links {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 8px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-out all;
+  overflow: hidden;
+}
+
+.products .product-item:hover .product-links {
+  transform: translate(15px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-item .product-links button,
+.product-item .product-links a {
+  background-color: #000000;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  transition: all ease 0.3s;
+}
+
+.product-item .product-links button:hover,
+.product-item .product-links a:hover {
+  opacity: 0.7;
+}
+
+.product-item .product-links i {
+  color: #ebebeb;
+  font-size: 14px;
+  display: flex;
+}
+.products {
+  margin-bottom: 40px;
+}
+
+.products .product-list {
+  display: flex;
+  gap: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-wrap: wrap;
+}
+.section-title h2,
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.product-info a {
+  text-decoration: none;
+  color: black;
+}

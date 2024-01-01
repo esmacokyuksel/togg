@@ -1,0 +1,22 @@
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: none;
+  position: absolute; /* position: fixed; yerine absolute kullanıyoruz */
+  object-fit: cover;
+  z-index: -1; /* Resmin altta kalmasını istediğiniz elementin z-index değerini düşük belirleyin */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 500ms ease-in-out;
+}
